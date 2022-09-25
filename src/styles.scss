@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+// Font Awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+// MDB SCSS
+@import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
+
+
+.fullMaxWidth {
+  max-width: 100% !important;
+}
+
+.bg-dark {
+  background-color: #141619 !important;
+}
+
+.navBarButtonLanding {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.centerItem {
+  margin: 0 auto;
+}
+
+.landingPageWidth {
+  width: 75%;
+}
+
+.login-register-container {
+  width: 50%;
+}
+
+.login-register-body {
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid darkslategray;
+  border-radius: 5px;
+}
+
+.landingPageWidth-text {
+  width: 500px;
+}
+
+.btn-link {
+  text-decoration: none !important;
+  color: white !important;
+  background-color: transparent !important;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .landingPageWidth, .login-register-container, .landingPageWidth-text {
+    width: 100%;
+  }
+}
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+ 
+@import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
